@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de origen">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado\FileReader">
+      <UniqueIdentifier>{34873093-aed8-4322-9679-66c97d8c85c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Utilities">
+      <UniqueIdentifier>{6e3a0467-48ef-4f12-bf60-449fd0075e15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\redstone">
+      <UniqueIdentifier>{95345a08-d60e-4201-b20c-e3b3614ebe37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\redstone\lang">
+      <UniqueIdentifier>{5abd57e5-41e9-4f16-9a2c-30f5e2887322}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\redstone\lang\Interpreter">
+      <UniqueIdentifier>{5e945901-44ef-4f92-b28d-e525b2880499}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="script.rds">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ThyFileReader.h">
+      <Filter>Archivos de encabezado\FileReader</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools_.h">
+      <Filter>Archivos de encabezado\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="keywords.h">
+      <Filter>Archivos de encabezado\redstone\lang</Filter>
+    </ClInclude>
+    <ClInclude Include="Interpreter.h">
+      <Filter>Archivos de encabezado\redstone\lang\Interpreter</Filter>
+    </ClInclude>
+    <ClInclude Include="states.h">
+      <Filter>Archivos de encabezado\redstone\lang\Interpreter</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
